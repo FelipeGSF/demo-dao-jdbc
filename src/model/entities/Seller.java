@@ -17,7 +17,7 @@ public class Seller implements Serializable{
 	private Department department;
 	
 	public Seller() {
-		System.out.println("Você instanciou um objeto Seller."); //apenas um teste.
+		
 	}
 
 	public Seller(Integer id, String name, String email, Date birthDate, Double baseSalary, Department department) {
